@@ -1,6 +1,6 @@
 body {margin:0;}
 
-ul:navbar{
+.navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,11 +11,11 @@ ul:navbar{
     width: 100%;
 }
 
-li:navitem{
+.navitem li{
     float: left;
 }
 
-li:navitem a {
+.navitem li a {
     display: block;
     color: white;
     text-align: center;
@@ -23,7 +23,7 @@ li:navitem a {
     text-decoration: none;
 }
 
-li:navitem a:hover:not(.active) {
+.navitem li a:hover:not(.active) {
     background-color: #111;
 }
 
