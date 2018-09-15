@@ -1,0 +1,22 @@
+.circletag {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: #E6E7ED;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    background-image: url(no.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+	margin: 10px; 
+	padding: 10px; 
+	background-color: rgb(237, 237, 237); 
+	border-radius: 10px;
+}
